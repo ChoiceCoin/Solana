@@ -21,14 +21,12 @@ const web3 =  require("@solana/web3.js");
   );
   await connection.confirmTransaction(airdropSignature);
 
-
-  
-
   // Add transfer instruction to transaction
+  // Lamport is the value
   const transaction = new web3.Transaction().add(
     web3.SystemProgram.transfer({
       fromPubkey: from.publicKey,
-      toPubkey: '5cG115Uv89fkAGMVSrLYBgnEX7MEiE7BJkd7pK9YdQJ4',
+      toPubkey: '',
       lamports: web3.LAMPORTS_PER_SOL / 100,
     }),
   );
