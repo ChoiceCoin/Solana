@@ -13,7 +13,6 @@ npm add @solana/spl-token
 ## Build from Source
 
 ### Ref.
-## Clone the project: 
 ```shell
 git clone https://github.com/solana-labs/solana-program-library.git
 ```
@@ -28,6 +27,9 @@ If you've followed the steps above you'll get a mint id and a transfer id of you
 `int tx: d7tdN8dXsXjEBt8cHrJekAgAnSziTuRXh56psqvr4y9d2UJgu9DHmkZEGaoG7H2e7Dp7fDq3ihLMx8vQaAGZYLL`
 
 `transfer tx: 4fp5YuZrhjP9yG7jXCuNRUVjvfLuCChFwfW3WjTJ1rthGUTa2NZi2M2SWfeW6HGXHg1spQpnhJffSCb9nUoiqU65`
+
+## Explorer | Solana
+https://explorer.solana.com/tx/4fp5YuZrhjP9yG7jXCuNRUVjvfLuCChFwfW3WjTJ1rthGUTa2NZi2M2SWfeW6HGXHg1spQpnhJffSCb9nUoiqU65?cluster=devnet
 
 ## Screen-shots
 [screen-shot](img/spl-ss.png)
