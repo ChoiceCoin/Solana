@@ -7,7 +7,7 @@ Ensure you have solana and npm installed in your system
 ## Install
 
 ```shell
-npm add @solana/spl-token
+npm install @solana/spl-token
 ```
 
 ## Build from Source
