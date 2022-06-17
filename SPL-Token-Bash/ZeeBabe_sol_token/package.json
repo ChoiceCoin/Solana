@@ -1,0 +1,16 @@
+{
+  "name": "zeebabe_sol_token",
+  "version": "1.0.0",
+  "description": "SPL TOKEN BASH",
+  "type": "module",
+  "main": "mintandtrans.js",
+  "scripts": {
+    "start": "node mintandtrans.js"
+  },
+  "keywords": [],
+  "author": "AZEEZAT",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.2.0"
+  }
+}
