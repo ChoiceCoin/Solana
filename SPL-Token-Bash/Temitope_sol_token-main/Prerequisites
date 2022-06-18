@@ -1,0 +1,29 @@
+## Prerequisites
+
+* `spl-token` command-line utility. Once you have [Rust installed](https://rustup.rs/), run:  
+     `cargo install spl-token-cli`
+
+
+* A keypair file with an associated public key funded.
+
+Follow the procedure below to get one:
+-Goto https://docs.solana.com/wallet-guide/file-system-wallet to generate a File System Wallet Keypair#
+
+-Use Solana's command-line tool 'solana-keygen' to generate keypair files. For example, run the following from a command-line shell:
+
+"""
+mkdir ~/my-solana-wallet
+solana-keygen new --outfile ~/my-solana-wallet/my-keypair.json
+"""
+
+This file contains your unencrypted keypair. 
+
+-To display its public key, run:
+"""
+solana-keygen pubkey ~/my-solana-wallet/my-keypair.json
+"""
+
+It will output a string of characters, such as:
+*ErRr1caKzK8L8nn4xmEWtimYRiTCAZXjBtVphuZ5vMKy*
+
+This is the public key corresponding to the keypair in ~/my-solana-wallet/my-keypair.json. The public key of the keypair file is your wallet address.
