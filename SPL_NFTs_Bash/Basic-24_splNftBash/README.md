@@ -55,3 +55,6 @@ https://explorer.solana.com/tx/4Bc5EsDZWqYrbzZeUFgwmjHT6KLCPLMh2oZge8to4ot3Mi8At
 
 ## Screen-shots
 [Explorer | Solana](screenshot/explorersol.png)
+
+[Shell](screenshot/solnftscreenshot.png)
+Thanks to ZeeBabe - **Azeezat Olanrewaju** ($ister) for the resources. 
