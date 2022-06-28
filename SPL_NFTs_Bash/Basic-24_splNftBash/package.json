@@ -1,0 +1,17 @@
+{
+  "name": "basic-24_splnfttoken",
+  "version": "1.0.0",
+  "description": "Transaction script to send Solana nft form one wallet to another using NodeJs and web3js official library",
+  "main": "devnet.js",
+  "scripts": {
+    "start": "node devnet.js"
+  },
+  "keywords": ["NFT", "Solana", "SPLToken"],
+  "author": "Basic-24 - Ahmed Olanrewaju",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/spl-token": "^0.2.0",
+    "@solana/web3.js": "^1.44.3"
+  }
+}
