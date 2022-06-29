@@ -1,0 +1,15 @@
+{
+  "name": "moonx_splnftbash",
+  "version": "1.0.0",
+  "description": "NFT SOLANA BASH",
+  "type": "module",
+  "main": "nft.js",
+  "scripts": {
+    "start": "node nft.js"
+  },
+  "author": "MoonX",
+  "license": "MIT",
+  "dependencies": {
+    "theblockchainapi": "^1.0.9404"
+  }
+}
