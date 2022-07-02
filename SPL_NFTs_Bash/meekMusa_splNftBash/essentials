@@ -1,0 +1,10 @@
+<ESSENTIALS>
+#Install spl-token command line utility  
+        `cargo install spl-token-cli`
+
+#Generate a public keypair file
+        `mkdir myKey`
+        `solana-keygen new --outfile myKey/my-keypair.json`
+
+#Generate your public key 
+        `solana-keygen pubkey myKey/my-keypair.json`
