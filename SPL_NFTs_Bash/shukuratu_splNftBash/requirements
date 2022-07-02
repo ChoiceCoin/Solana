@@ -1,0 +1,21 @@
+curl https://release.solana.com/v1.9.5/solana-install-init-x86_64-pc-windows-msvc.exe --output C:\solana-install-tmp\solana-install-init.exe --create-dirs
+
+SPL CLI
+'cargo install spl-token-cli'
+
+Solana Wallet
+For this task, I've used a Filesystem wallet.
+'solana-keygen new --no-outfile'
+
+Configure Solana Cluster
+Check your Solana Cluster configuration
+'solana config get'
+
+Set the Solana Cluster to Testnet
+'solana config set --url https://api.devnet.solana.com'
+
+Get some free SOL for minting
+'solana airdrop 1'
+
+
+return to the readme file
