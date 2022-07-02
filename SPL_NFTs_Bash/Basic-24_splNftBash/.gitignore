@@ -1,0 +1,5 @@
+// Avoiding pull request to git-hub
+
+/node_modules
+
+/package-lock.json
